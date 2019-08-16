@@ -3195,7 +3195,7 @@ class DataSpecNumNomOpts(DLPyDict):
     :class:`DataSpecNumNomOpts`
 
     """
-    def __init__(self, length, token_size=0):
+    def __init__(self, length=None  , token_size=0):
         DLPyDict.__init__(self, length=length, token_size=token_size)
 
 
